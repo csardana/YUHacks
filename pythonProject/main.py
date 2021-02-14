@@ -28,3 +28,11 @@ for link in links:
     print(firstAndSecondYr)
     print(thirdAndFourthYr)
     print(totalStudents)
+    
+totalStudents = firstAndSecondYr + thirdAndFourthYr
+studentsDriving = 8100
+studentsTakingBus= totalStudents - (1750) * 7 + 812 + studentsDriving
+gasConsumptionDrivingBrampton = 10 * studentsDriving * 34
+gasConsumptionDrivingSauga = 32.1 * 10 * studentsDriving
+gasConsumptionDrivingScarborough =  33 * 10 * studentsDriving
+
